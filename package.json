@@ -1,0 +1,42 @@
+{
+  "name": "pr-lint-action",
+  "version": "0.1.0",
+  "description": "A GitHub action to ensure PR titles conform to a specified convention.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickblackjr/pr-lint-action.git"
+  },
+  "keywords": [
+    "actions",
+    "lint",
+    "gha",
+    "pr",
+    "chatops"
+  ],
+  "author": "Patrick Black <patrick@pixelclouddev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickblackjr/pr-lint-action/issues"
+  },
+  "homepage": "https://github.com/patrickblackjr/pr-lint-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.8",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "@vercel/ncc": "^0.38.1",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
